@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+    <title>Smart Login System-- Sign in</title>
+    <!-- Local Icons font aswsome V 6.4.0 -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Local BootstrapV5 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- CSS files -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <main class="login-system d-flex flex-column justify-content-center align-items-center">
+        <section id="" class="login-box position-relative text-white">
+            <div class="container">
+                <h1 class="text-center mb-5 text-capitalize">Smart Login System</h1>
+                <form action="#">
+                    <div class="form-parent position-relative mb-4">
+                        <input type="email" class="form-control" id="email" placeholder="email">
+                        <label for="email" class="position-absolute">Email address</label>
+                        <div class="icon position-absolute">
+                            <span class="fa fa-envelope"></span>
+                        </div>
+                    </div>
+                    <div class="form-parent position-relative mb-4">
+                        <input type="password" class="form-control" id="password" placeholder="password">
+                        <label for="password" class="position-absolute">Password</label>
+                        <div class="icon position-absolute">
+                            <span class="fa fa-lock"></span>
+                        </div>
+                    </div>
+                    <div class="validation text-center mb-4">
+                        <p class="email-validation mb-2">- Email address field is required.</p>
+                        <p class="pass-validation mb-2">- Password field is required.</p>
+                        <p class="input-validation mb-2">- Incorrect email or password.</p>
+                    </div>
+                    <button type="submit" id="loginBtn" class="mb-4 w-100 btn-style">Login</button>
+                    <p class=" text-white text-center">Don’t have an account? <a href="sign-up.html"
+                            class="sign-link" target="_blank">Sign Up</a></p>
+                </form>
+            </div>
+        </section>
+        <footer class="pt-5">
+            <p class="text-white">Coded by <a href="https://github.com/AyaAbdelmoghith">Eng. Aya Abdelmoghith</a></p>
+        </footer>
+    </main>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+nav{
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+}
+h1{
+    font-family: "PT Sans Caption", sans-serif;
+}
+.welcome-box{
+    min-height: 65vh;
+}
+#logOutBtn{
+    font-size: 18px;
+    font-weight: 700;
+}
+@media (max-width: 410.38px){
+.login-box {
+    height: 100%;
+}
+}
