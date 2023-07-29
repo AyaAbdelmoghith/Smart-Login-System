@@ -22,9 +22,9 @@ Smart Login System with visually appealing pages - Sign in, Sign up, and Welcome
 - Email Requirements:
   - Validates that the email follows the format "name@example.com."
 
-## Welcome Page:
+## Home Page:
 
-- Upon successful sign-in, directs the user to the Welcome page.
+- Upon successful sign-in, directs the user to the Home page.
 - Displays a warm greeting like "Hello [user's name]" to personalize the experience.
 
 ## Video:
