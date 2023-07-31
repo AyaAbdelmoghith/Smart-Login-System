@@ -57,6 +57,7 @@ function clearFieldsStyle() {
     email.style.borderBottomColor = '#FFF';
     password.style.borderBottomColor = '#FFF';
 }
+
 email.addEventListener('blur', emailValidationFunc);
 email.addEventListener('input', emailValidationFunc);
 
